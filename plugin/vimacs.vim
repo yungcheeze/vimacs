@@ -189,69 +189,6 @@ LetDefault g:VM_UnixConsoleMetaSendsEsc 1
 " One or two <Esc>s required to go back to Normal mode?
 LetDefault g:VM_SingleEscToNormal 1
 
-if has("unix") && !has("gui_running") && g:VM_UnixConsoleMetaSendsEsc
-  " <Esc>x maps to <M-x>
-  "let charCode = 65
-  "while charCode <= 122
-  "  exec "set <Char-" . charCode . ">=\<Esc>" . nr2char(charCode)
-  "  let charCode = charCode + 1
-  "endwhile
-  "unlet charCode
- set <M-1>=1
- set <M-2>=2
- set <M-3>=3
- set <M-4>=4
- set <M-5>=5
- set <M-6>=6
- set <M-7>=7
- set <M-8>=8
- set <M-9>=9
- set <M-0>=0
- set <M-a>=a
- set <M-b>=b
- set <M-c>=c
- set <M-d>=d
- set <M-e>=e
- set <M-f>=f
- set <M-g>=g
- set <M-h>=h
- set <M-i>=i
- set <M-j>=j
- set <M-k>=k
- set <M-l>=l
- set <M-m>=m
- set <M-n>=n
- set <M-o>=o
- set <M-p>=p
- set <M-q>=q
- set <M-r>=r
- set <M-s>=s
- set <M-t>=t
- set <M-u>=u
- set <M-v>=v
- set <M-w>=w
- set <M-x>=x
- set <M-y>=y
- set <M-z>=z
- set <M->=
- set <M-/>=/
- " Doing "set <M->>=^[>" throws up an error, so we be dodgey and use Char-190
- " instead, which is ASCII 62 ('>' + 128).
- set <Char-190>=>
- " Probably don't need both of these ;)
- set <Char-188>=<
- set <M-<>=<
- set <M-0>=0
-
- set <M-%>=%
- set <M-*>=*
- set <M-.>=.
- set <M-^>=^
- " Can't set <M-Space> right now :(
- "set <M-Space>=<Space>
-" 
-endif
-
 
 "
 " One or two <Esc>s to get back to Normal mode?
