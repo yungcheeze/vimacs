@@ -1,8 +1,8 @@
 #!/bin/sh
 
 # real path to vim
-VIM_CMD=${VIM_CMD:-/usr/bin/vim}
-GVIM_CMD=${GVIM_CMD:-/usr/bin/gvim}
+VIM_CMD=${VIM_CMD:-/usr/bin/nvim}
+GVIM_CMD=${GVIM_CMD:-/usr/bin/nvim}
 
 # what program name was i run as?
 argv0=`basename $0`
