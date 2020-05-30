@@ -178,9 +178,6 @@ set backspace=indent,eol,start
 " Want to be able to use <Tab> within our mappings
 " (This has got to be the coolest option name ever, btw)
 set wildcharm=<Tab>
-" Recognise key sequences that start with <Esc> in Insert Mode
-set esckeys
-
 
 "
 " For the UNIX console -- make <Esc>x == <M-x>
