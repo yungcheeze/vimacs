@@ -994,7 +994,7 @@ vnoremap <S-Del> "+d
 "May have to change to "1d and paste ...
 
 " Marking blocks
-inoremap <silent> <M-Space> <C-o>:call <SID>StartMarkSel()<CR><C-o>viw
+"inoremap <silent> <M-Space> <C-o>:call <SID>StartMarkSel()<CR><C-o>viw
 inoremap <silent> <M-h> <C-o>:call <SID>StartMarkSel()<CR><C-o>vap
 inoremap <silent> <C-<> <C-o>:call <SID>StartMarkSel()<CR><C-o>v1G0o
 inoremap <silent> <C->> <C-o>:call <SID>StartMarkSel()<CR><C-o>vG$o
