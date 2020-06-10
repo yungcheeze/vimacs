@@ -1128,7 +1128,7 @@ command! ScrollOtherWindow silent! execute "normal! \<C-w>w\<PageDown>\<C-w>W"
 
 inoremap <silent> <M-=> <C-o>:call <SID>IndentParagraph()<CR>
 inoremap <silent> <M-q> <C-o>:call <SID>FillParagraph()<CR>
-inoremap <script> <C-o> <CR><Left>
+" inoremap <script> <C-o> <CR><Left>
 inoremap <C-M-o> <C-o>:echoerr "<C-M-o> not supported yet; sorry!"<CR>
 inoremap <C-x><C-o> <C-o>:call <SID>DeleteBlankLines()<CR>
 " Try GoZ<Esc>:g/^$/.,/./-j<CR>Gdd
