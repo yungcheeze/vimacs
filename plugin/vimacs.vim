@@ -272,7 +272,7 @@ endfunction
 " Leaving Vim
 "
 
-inoremap <C-x>c <C-o>:confirm qall<CR>
+inoremap <special> <C-x><C-c> <C-o>:confirm qall<CR>
 
 
 "
